@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+ <meta charset="utf-8">                                                                                         <!-- navigation bar  -->  
+  <meta name="viewport" content="width=device-width, initial-scale=1">                                                <!-- navigation bar  --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">              <!-- navigation bar  --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>                         <!-- navigation bar  --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>                      <!-- navigation bar  --> 
+  </head>
+<style>
+a {
+    background-color: black;
+    width: 150px;
+    border: 2px solid  black;
+    padding: 20px;
+    margin: 5px;
+	text-align:center;
+	color:red;
+    
+}
+
+h1{
+    text-align:center;
+	font-size:70px;
+	}
+
+
+</style>
+
+<h1 >COLLEGE OF ENGINEERING</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7s22fdhJ9DEF6naNnG10gdj1tzZej1wcu1N2U0ZCm9WdUi_D1" width="100" height="100" >             <!-- the logo  -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     
+    </div>
+    <ul class="nav navbar-nav">
+	   <li><a href="file:///C:/Users/win10/Desktop/New%20folder/1st%20page.html">Home</a></li>   <!-- navigation bar home -->
+      <li><a href="file:///C:/Users/win10/Desktop/New%20folder/about.html">About</a></li>        <!-- navigation bar about -->
+	  <li><a href="file:///C:/Users/win10/Desktop/New%20folder/course.html">Courses</a></li>
+      <li><a href="https://www.punediary.com/html/telephone.html">Contact Us</a></li>            <!-- navigation bar contact us -->
+	  
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  
+</div>
+
+ 
+
+<img src="http://az776130.vo.msecnd.net/media/images/default-source/default-album/pierce---student-services1.jpg?sfvrsn=0" width="400" height="200" >                     <!-- 1st page --> 
+
+<img src="https://amp.businessinsider.com/images/5202787b6bb3f7957000001f-750-561.jpg" width="400" height="200"   >                                                          <!-- 2nd image  --> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmRNZFipmkI7DjalVpjdvLwppSGtgHLfTc9SHohnfxf5DZqru" width="400" height="200">                                   <!-- 3rd image  --> 
+<hr>
+<p>Located in Campus 1 and it is the faculty of Engineering and Technology.Programs offered by the college are AICTE approved and many have been accredited by the prestigious accreditation body ABET, USA.</p>	
+<hr>
+
+<h2 style="color:red;">Hostel Facilities</h2>
+<hr>
+<div>
+<img src="http://www.sgipolytechnic.in/Infrastructure/hostel1.jpg" width="400" height="200" >      
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIaLyYP1ktUNpzpGSU63J8if1IihyfBAjr3gDlG50YobR8KAgd" width="400" height="200" >   
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqAnHJFCyE8Aq3Z4CHI27-MyzYeqx6wdb39QZy6Sqn0ALSGweng" width="400" height="200">
+</div>
+<hr>
+<h2 style="color:red;">Admission Quicklinks</h2>
+<hr>
+<p>Admissions are open in the link below you can register your details and submit the form and get your registration number and then check your profile and if any error edit it.</p>
+<hr>
+<a href="file:///C:/Users/win10/Desktop/New%20folder/form.html">Registration</a>                    <!-- registration box  --> 
+ </body>
+</html>

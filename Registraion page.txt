@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+
+body{
+background-image: url("https://www.vidsplay.com/wp-content/uploads/2017/05/laptop-screenshot.jpg")webkit-filter: blur(15px);
+    filter: blur(15px);;
+
+}
+
+fieldset{
+       font-size: 30px;
+       color:red;
+}
+fieldset.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+h2{
+   text-align: center ;
+   color: black;
+   font-size:40px;
+   
+   }
+ input[type=text] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+   input[type=number] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+   input[type=email] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+   input[type=date] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+input[type=file] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+   input[type=submit] {
+    width: 20%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 1px;
+}
+   
+
+
+</style>
+<h2 >Registration Form</h2>
+
+<form action="/action_page.php">
+  <fieldset class ="ex1">
+    
+    1.  First name:                               <input type="text" name="firstname" size="50" border= "2px solid red">
+    <br>
+	<br>
+    2.  Last name:                                <input type="text" name="lastname" size="50" autofocus >
+	<br>
+	<br>
+	3.  Address:                                  <input type="text" name="address1" size="200" autofocus>
+	<br>
+	<br>
+	4.  Father's name:                            <input type="text" name="father's name" size="200">
+	<br>
+	<br>
+	5.  Mother's name:                            <input type="text" name="father's name" size="200">
+	<br>
+	<br>
+    6.  Gender:<br>
+	<br>
+	<input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+	<br>
+	<br>
+    7.  D.O.B:
+      <input type="date" name="bday">
+	<br>
+	<br>
+	8.  Mobile Number: <input type="number" name="phone number" autofocus>     Telephone:<input type="number" name="usrtel" autofocus>
+	<br>
+	<br>
+	9. E-mail:
+    <input type="email" name="email" size="50" autofocus>
+    <br>
+    <br>
+	10. Std 10 Boards marks: <input type="number" name="marks" autofocus>
+	<br>
+	<br>
+	11. Std 12 Boards marks: <input type="number" name="marks" autofocus>
+	<br>
+	<br>
+	12. Aadhar Number:  <input type="number" name="number" autofocus>
+	<br>
+	<br>
+	Select a file to upload your passport size photo: 
+	<input type="file" name="myFile"><br><br>
+    <br><br>
+    <input type="submit" value="Submit">
+   </fieldset>
+</form> 
+
+</body>
+</html>
